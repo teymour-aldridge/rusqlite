@@ -154,6 +154,8 @@ bencher = "0.1"
 [dependencies.libsqlite3-sys]
 path = "libsqlite3-sys"
 version = "0.33.0"
+default-features = false
+features = ["buildtime_bindgen"]
 
 [[test]]
 name = "auto_ext"
